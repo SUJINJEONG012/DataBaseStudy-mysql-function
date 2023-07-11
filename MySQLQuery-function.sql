@@ -65,3 +65,7 @@ select cast(orddt as char(7)) from order_h where orderno = '202201001'; -- 2022-
 
 -- select convert(orddt, as char(7)) from order_h where orderno = '202201001'; 오류남;
 
+-- lpad(), rpad() 함수
+select lpad('mysqldb', 10,'@'); -- @@@mysqldb
+select rpad('mysqldb',10, '!@'); -- mysqldb!@!
+
