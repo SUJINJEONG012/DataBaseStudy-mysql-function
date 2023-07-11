@@ -57,3 +57,5 @@ select concat('My','SQL'); -- MySQL
 select concat('My','/','SQL'); -- My/SQL
 select concat_ws('/','My','SQL'); --My/SQL
 
+select concat_ws('/', orderno, memid)  from order_h; -- 202201001/seo
+
