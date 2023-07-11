@@ -29,3 +29,7 @@ select field('일', '월', '화', '수', '목','금','토'); -- 0 , 숫자번째
 
 select find_in_set('목', '월,화,수,목,금,토'); -- 4반환
 select find_in_set('수목', '월,화,수목,금,토'); -- 3반환
+
+-- lower(), lcase()함수 , 소문자로 변환
+select lower('MySQL');
+select lcase('MySQL'); 
