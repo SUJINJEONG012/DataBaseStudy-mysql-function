@@ -47,3 +47,8 @@ select trim('    MySQL DB  '); -- 양쪽 빈칸제거, 중간에 포함된 빈�
 select char_length('mysql 공부하기'); -- 10 
 select character_length('  mysql 공부하기 '); --13
 select char_length(trim('  mysql 공부하기 '));
+
+
+-- length()함수 : 인수로 주어진 문자열 또는 변수/열 값의 길이를 바이트 단위로 반환
+select length('MySQL'); --5
+
