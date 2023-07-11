@@ -59,3 +59,9 @@ select concat_ws('/','My','SQL'); --My/SQL
 
 select concat_ws('/', orderno, memid)  from order_h; -- 202201001/seo
 
+-- cast(), convert() 함수 : 두번째 인수로 지정한 데이터 유형으로 변경
+select cast(123 as char(5)); -- 123
+select cast(orddt as char(7)) from order_h where orderno = '202201001'; -- 2022-01
+
+-- select convert(orddt, as char(7)) from order_h where orderno = '202201001'; 오류남;
+
