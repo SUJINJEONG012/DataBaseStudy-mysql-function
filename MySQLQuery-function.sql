@@ -33,3 +33,7 @@ select find_in_set('수목', '월,화,수목,금,토'); -- 3반환
 -- lower(), lcase()함수 , 소문자로 변환
 select lower('MySQL');
 select lcase('MySQL'); 
+
+-- upper(), ucase() 함수
+select upper('mysql');
+select ucase('mysql');
