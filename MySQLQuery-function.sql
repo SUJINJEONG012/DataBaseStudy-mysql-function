@@ -42,3 +42,8 @@ select ucase('mysql');
 select ltrim('    MySQL DB  '); -- 왼쪽 빈칸 제거
 select rtrim('    MySQL DB  '); -- 오른쪽 빈칸 제거
 select trim('    MySQL DB  '); -- 양쪽 빈칸제거, 중간에 포함된 빈칸은 제거되지않는다.
+
+-- char_length(), character_length() 함수 : 변수/열 값의 길이, 문자수를 반환
+select char_length('mysql 공부하기'); -- 10 
+select character_length('  mysql 공부하기 '); --13
+select char_length(trim('  mysql 공부하기 '));
