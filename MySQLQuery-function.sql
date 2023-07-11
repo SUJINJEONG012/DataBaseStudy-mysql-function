@@ -37,3 +37,8 @@ select lcase('MySQL');
 -- upper(), ucase() 함수
 select upper('mysql');
 select ucase('mysql');
+
+-- ltrim() , rtrim(), trim() 함수 : 빈칸제거 함수
+select ltrim('    MySQL DB  '); -- 왼쪽 빈칸 제거
+select rtrim('    MySQL DB  '); -- 오른쪽 빈칸 제거
+select trim('    MySQL DB  '); -- 양쪽 빈칸제거, 중간에 포함된 빈칸은 제거되지않는다.
