@@ -52,3 +52,8 @@ select char_length(trim('  mysql 공부하기 '));
 -- length()함수 : 인수로 주어진 문자열 또는 변수/열 값의 길이를 바이트 단위로 반환
 select length('MySQL'); --5
 
+-- contact(), concat_ws() 함수 : 문자 결합 함수
+select concat('My','SQL'); -- MySQL
+select concat('My','/','SQL'); -- My/SQL
+select concat_ws('/','My','SQL'); --My/SQL
+
