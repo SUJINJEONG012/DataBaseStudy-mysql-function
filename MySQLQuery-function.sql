@@ -74,4 +74,5 @@ select insert('mysqldb은 오라클에 인수되었다.', 3,8,'DB는'); -- myDB�
 
 -- replace() 함수, 대소문자구분,찾는문자열이 없을땐 첫번째 인수값 그대로 반환
 select replace('이것은 MySQL', '이것은','This is'); -- This is MySQL
+-- 첫번째 인수
 
