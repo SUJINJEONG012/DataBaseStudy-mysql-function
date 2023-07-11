@@ -69,3 +69,6 @@ select cast(orddt as char(7)) from order_h where orderno = '202201001'; -- 2022-
 select lpad('mysqldb', 10,'@'); -- @@@mysqldb
 select rpad('mysqldb',10, '!@'); -- mysqldb!@!
 
+-- insert()함수 
+select insert('mysqldb은 오라클에 인수되었다.', 3,8,'DB는'); -- myDB는라클에 인수되었다
+
